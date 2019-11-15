@@ -1,0 +1,160 @@
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+
+.nav, .footer {
+    font-family: arial,sans-serif;
+    font-size: .8em;
+}
+
+.nav-links-left {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+}
+
+.nav-links-right {
+    position: absolute;
+    top: 2%;
+    right: 1%;
+}
+
+#store, #about, #gmail, #images, #apps, #account {
+    padding:0 1em;
+}
+
+
+
+.container {
+    position: absolute;
+    top: 16%;
+    left: 42%;
+}
+
+/*
+.container {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+input {
+    width: 590px;
+    height: 45px;
+    border-radius: 40px;
+    margin: 10px;
+    position: relative;
+    left: -170px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #efefef;
+    border: none;
+    font-size: 14px;
+    color: #686868;
+    position: relative;
+    left: -35px;
+}
+
+
+
+/*
+.footer {
+    min-height: 20px;
+    background-color: lightgrey;
+    position: absolute;
+    display: block;
+}
+*/
+
+.footer-links-left {
+    position: absolute;
+    bottom: 2%;
+    left: 1%;
+}
+
+.footer-links-right {
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+   I found this at
+   https://cssreset.com/
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
